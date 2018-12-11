@@ -41,14 +41,14 @@ Once you have the layout spacers module installed, you can include it in your CS
 
 #### CSS Import:
   ```css
-  import url("https://cdn.rawgit.com/getbase/layout-spacers/master/css/index.css");
+  @import url("https://unpkg.com/@getbase/layout-spacers/index.css");
   ```
 
 #### SCSS Import:
 
   ```scss
   /* Import Base Layout Spacers */
-  @import "node_modules/@getbase/layout-spacers/scss/index";
+  @import "~@getbase/layout-spacers/scss/index";
   /* Your Other Styles */
   @import "main"
   ```
@@ -56,9 +56,9 @@ Once you have the layout spacers module installed, you can include it in your CS
 
 #### LESS Import:
 
-  ```css
+  ```less
   /* Import Base Layout Spacers */
-  @import "node_modules/@getbase/layout-spacers/scss/index";
+  @import "~@getbase/layout-spacers/less/index";
   /* Your Other Styles */
   @import "main"
   ```
@@ -231,7 +231,7 @@ Base Layout Spacers includes styles for adding spaced rows (`.pad-top-5, .pad-bo
 
 ## Demo
 
-[View page example](https://rawgit.com/getbase/layout-spacers/master/index.html) with the layout spacers stylesheet applied.
+[View page example](https://unpkg.com/@getbase/layout-spacers/index.html) with the layout spacers stylesheet applied.
 
 * * *
 

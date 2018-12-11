@@ -2,11 +2,12 @@
 
 // Base Layout Spacers - http://getbase.org
 // Author: Matthew Hartman - http://www.matthewhartman.com.au/
-// Version: 4.0.0 - Last Updated: April 17, 2018
+// Version: 4.1.0 - Last Updated: December 11, 2018
 
 ========================================================================== */
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
 .pad-top-5 {
@@ -357,4 +358,4 @@
   .pad-60-xl {
     padding: 60px; } }
 
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map*/
